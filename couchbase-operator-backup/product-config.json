@@ -2,7 +2,7 @@
     "manifests": {
         "couchbase-operator-backup/master.xml": {
             "production": true,
-            "interval": 120,
+            "interval": 240,
             "restricted": false,
             "start_build": 100,
             "keep_git": true,

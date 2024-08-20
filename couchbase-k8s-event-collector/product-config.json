@@ -2,7 +2,7 @@
     "manifests": {
         "couchbase-k8s-event-collector/main.xml": {
             "production": true,
-            "interval": 60,
+            "interval": 240,
             "restricted": false,
             "start_build": 100,
             "keep_git": true,

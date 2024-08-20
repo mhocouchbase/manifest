@@ -2,7 +2,7 @@
     "manifests": {
         "couchbase-fluent-bit/main.xml": {
             "production": true,
-            "interval": 90,
+            "interval": 240,
             "restricted": false,
             "start_build": 100,
             "trigger_blackduck": true,
