@@ -1,7 +1,7 @@
 {
     "manifests": {
-        "couchbase-lite-cblite/boron.xml": {
-            "release_name": "cblite tool - Boron",
+        "couchbase-lite-cblite/master.xml": {
+            "release_name": "cblite tool - master branch",
             "production": true,
             "interval": 240,
             "restricted": false,
@@ -12,9 +12,9 @@
                 "couchbase-lite-core"
             ]
        },
-        "couchbase-lite-cblite/beryllium.xml": {
-            "release": "3.2.0",
-            "release_name": "cblite tool - Beryllium",
+        "couchbase-lite-cblite/3.2.xml": {
+            "release": "3.2.1",
+            "release_name": "cblite tool - 3.2",
             "production": true,
             "interval": 240,
             "restricted": false,

@@ -1,7 +1,7 @@
 {
     "manifests": {
-        "couchbase-lite-log/boron.xml": {
-            "release_name": "Couchbase Lite Log - Boron",
+        "couchbase-lite-log/master.xml": {
+            "release_name": "Couchbase Lite Log - master branch",
             "production": true,
             "interval": 240,
             "restricted": false,
@@ -12,8 +12,8 @@
                 "couchbase-lite-core"
             ]
        },
-        "couchbase-lite-log/beryllium.xml": {
-            "release": "3.2.0",
+        "couchbase-lite-log/3.2.xml": {
+            "release": "3.2.1",
             "release_name": "Couchbase Lite Log - Beryllium",
             "production": true,
             "interval": 240,
