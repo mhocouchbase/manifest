@@ -67,7 +67,7 @@
 
   <!-- Third-party projects -->
 
-  <project name="bleve" revision="noOpMerge" remote="blevesearch" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve" revision="batchFlush" remote="blevesearch" path="godeps/src/github.com/blevesearch/bleve"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
@@ -115,7 +115,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build" path="cbbuild" revision="trinity" groups="notdefault,build">
-    <annotation name="VERSION" value="7.6.3"     keep="true"/>
+    <annotation name="VERSION" value="7.6.4"     keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
