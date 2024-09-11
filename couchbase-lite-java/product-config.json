@@ -8,7 +8,7 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true,
-            "do-build": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-java-ee-root", "product-texts" ],
             "jenkins_job": "couchbase-lite-java"
         },
@@ -74,4 +74,3 @@
         }
     }
 }
-
