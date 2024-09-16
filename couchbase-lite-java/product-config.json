@@ -1,7 +1,7 @@
 {
     "manifests": {
-        "couchbase-lite-java/boron.xml": {
-            "release_name": "Couchbase Lite Java - Boron 3.3.0 pre-release",
+        "couchbase-lite-java/master.xml": {
+            "release_name": "Couchbase Lite Java - Master 4.0.0 pre-release",
             "production": true,
             "interval": 90,
             "restricted": false,
@@ -12,7 +12,7 @@
             "module_projects": [ "couchbase-lite-java-ee-root", "product-texts" ],
             "jenkins_job": "couchbase-lite-java"
         },
-        "couchbase-lite-java/beryllium.xml": {
+        "couchbase-lite-java/3.2.xml": {
             "release_name": "Couchbase Lite Java - Beryllium 3.2.0",
             "production": true,
             "interval": 43800,
@@ -24,7 +24,7 @@
             "module_projects": [ "couchbase-lite-java-ee-root", "product-texts" ],
             "jenkins_job": "couchbase-lite-java"
         },
-        "couchbase-lite-java/helium.xml": {
+        "couchbase-lite-java/3.1.xml": {
             "release_name": "Couchbase Lite Java - Helium 3.1.9",
             "production": true,
             "interval": 43800,

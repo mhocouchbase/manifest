@@ -1,7 +1,7 @@
 {
     "manifests": {
-        "couchbase-lite-android/boron.xml": {
-            "release_name": "Couchbase Lite Android - Boron 3.3.0 pre-release",
+        "couchbase-lite-android/master.xml": {
+            "release_name": "Couchbase Lite Android - Master 4.0.0 pre-release",
             "production": true,
             "interval": 90,
             "restricted": false,
@@ -12,7 +12,7 @@
             "module_projects": [ "couchbase-lite-java-ee-root", "product-texts" ],
             "jenkins_job": "couchbase-lite-android"
         },
-        "couchbase-lite-android/beryllium.xml": {
+        "couchbase-lite-android/3.2.xml": {
             "release_name": "Couchbase Lite Android - Beryllium 3.2.0",
             "production": true,
             "interval": 43800,
@@ -24,7 +24,7 @@
             "module_projects": [ "couchbase-lite-java-ee-root", "product-texts" ],
             "jenkins_job": "couchbase-lite-android"
         },
-        "couchbase-lite-android/helium.xml": {
+        "couchbase-lite-android/3.1.xml": {
             "release_name": "Couchbase Lite Android - Helium 3.1.9",
             "production": true,
             "interval": 43800,
