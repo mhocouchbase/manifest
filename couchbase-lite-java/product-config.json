@@ -1,7 +1,7 @@
 {
     "manifests": {
         "couchbase-lite-java/master.xml": {
-            "release_name": "Couchbase Lite Java - Master 4.0.0 pre-release",
+            "release_name": "Couchbase Lite Java - Anemone 4.0.0 pre-release",
             "production": true,
             "interval": 90,
             "restricted": false,
@@ -13,9 +13,9 @@
             "jenkins_job": "couchbase-lite-java"
         },
         "couchbase-lite-java/3.2.xml": {
-            "release_name": "Couchbase Lite Java - Beryllium 3.2.0",
+            "release_name": "Couchbase Lite Java - Carbon 3.2.1",
             "production": true,
-            "interval": 43800,
+            "interval": 90,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
