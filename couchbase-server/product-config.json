@@ -51,7 +51,7 @@
             "interval": 257,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-63453"
+            "approval_ticket": "MB-63632"
         },
         "couchbase-server/trinity/7.6.2.xml": {
             "release": "trinity",
