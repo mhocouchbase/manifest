@@ -28,7 +28,7 @@
   <project name="geocouch"/>
   <project name="goxdcr" revision="trinity" path="goproj/src/github.com/couchbase/goxdcr" groups="bsl"/>
   <project name="gometa"    revision="trinity" path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="nitro"     revision="trinity" path="goproj/src/github.com/couchbase/nitro" groups="bsl"/>
+  <project name="nitro"     revision="cypher" path="goproj/src/github.com/couchbase/nitro" groups="bsl"/>
   <!-- For the time being, indexing is pulling latest code from master -->
   <project name="indexing"  revision="master" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
   <project name="plasma"    revision="cypher" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="bsl,notdefault,enterprise"/>
