@@ -6,5 +6,5 @@
   <include name="couchbase-server/morpheus.xml"/>
 
   <!-- Pick up XDCR project from mirrored branch that depends on manual upkeep (technically morpheus right now) -->
-  <extend-project name="goxdcr" remote="nelio2k" revision="mod" path="goproj/src/github.com/couchbase/goxdcr"/>
+  <extend-project name="goxdcr" remote="nelio2k" revision="m3" path="goproj/src/github.com/couchbase/goxdcr"/>
 </manifest>
