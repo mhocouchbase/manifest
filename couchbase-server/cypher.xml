@@ -19,7 +19,7 @@
   <project name="cbgt" revision="trinity"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couchbase-cli" groups="kv" revision="trinity"/>
-  <project name="couchdb" revision="trinity" dest-branch="unstable"/>
+  <project name="couchdb" revision="cypher" dest-branch="unstable"/>
   <project name="couchstore" revision="trinity" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
@@ -32,8 +32,8 @@
   <!-- For the time being, indexing is pulling latest code from master -->
   <project name="indexing"  revision="master" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
   <project name="plasma"    revision="cypher" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="bsl,notdefault,enterprise"/>
-  <project name="eventing" revision="trinity" path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
-  <project name="eventing-ee" revision="trinity" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
+  <project name="eventing" revision="cypher" path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
+  <project name="eventing-ee" revision="cypher" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="cypher" groups="kv,bsl"/>
   <project name="libcouchbase" revision="684931e59cd87e0c6292e8142c2b18897be5b10c"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" revision="cypher"/>
