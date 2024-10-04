@@ -35,7 +35,7 @@
                         "macos:arm64",
                         "windows_msvc2022" ],
             "do-build": true,
-            "start_build": 50000,
+            "start_build": 10000,
             "interval": 120,
             "ignore_projects": [ "build-tools" ],
             "keep_git": true
