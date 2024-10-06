@@ -20,7 +20,7 @@
   <project name="couchbase-cli" groups="kv" revision="trinity"/>
   <project name="couchdb" revision="trinity" dest-branch="unstable"/>
   <project name="couchstore" revision="trinity" groups="kv"/>
-  <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
+  <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="cf3254d7dfb042192c9a23bd2e64a281c32a29d8" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
   <project name="forestdb" revision="cb-master" groups="backup"/>
@@ -37,7 +37,7 @@
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" revision="trinity"/>
   <project name="ns_server" revision="trinity" groups="bsl"/>
   <project name="chronicle" revision="8d1feeb0d8b15e2b6a4c1a417addfd159b422a71" path="ns_server/deps/chronicle"/>
-  <project name="vbmap"/>
+  <project name="vbmap" revision="trinity"/>
   <project name="phosphor" groups="bsl,kv" revision="c0a034fe407eec4723f2e01db2d72762efdbc276"/>
   <project name="platform" revision="trinity" groups="bsl,kv"/>
   <project name="product-texts"/>
@@ -66,8 +66,7 @@
   <project name="cbas-ui" revision="704db180d01de15f70cacc9fc11c5d8d8d4ff965" groups="notdefault,enterprise,analytics"/>
 
   <!-- Third-party projects -->
-  <project name="bleve" revision="cosine2" remote="blevesearch" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="go-faiss" revision="cosine2" remote="blevesearch" path="godeps/src/github.com/blevesearch/go-faiss"/>
+  <project name="zapx" revision="winFlag" remote="blevesearch" path="godeps/src/github.com/blevesearch/zapx"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
@@ -120,5 +119,5 @@
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
   <project name="product-metadata" groups="notdefault,packaging" />
-  <project name="golang" revision="main" remote="couchbaselabs" groups="kv"/>
+  <project name="golang" revision="supported-newer-1.22" remote="couchbaselabs" groups="kv"/>
 </manifest>
