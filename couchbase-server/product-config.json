@@ -170,8 +170,8 @@
             "production": true,
             "start_build": 6400,
             "trigger_blackduck": true,
-            "interval": 1527,
-            "do-build": false,
+            "interval": 90,
+            "do-build": true,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-58730"
