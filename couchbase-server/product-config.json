@@ -165,7 +165,7 @@
         },
         "couchbase-server/neo/7.2.2.xml": {
             "release": "neo",
-            "release_name": "Neo (7.2.2)",
+            "release_name": "Neo (7.2.2-MP1)",
             "parent": "couchbase-server/neo.xml",
             "production": true,
             "start_build": 6400,
@@ -174,7 +174,7 @@
             "do-build": true,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-58730"
+            "approval_ticket": "MB-63884"
         },
         "couchbase-server/neo/7.2.1.xml": {
             "release": "neo",
