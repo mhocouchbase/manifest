@@ -18,7 +18,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java"/>
   <project remote="couchbaselabs" name="couchbase-lite-java-tools" path="cbl-java/etc" revision="9f6e4bf8b405f3fc4a840f7c82b6939de9fa3850"/>
-  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="9a994a607bd1f4bf7da4c54b8e32dbaa2dfd6dfb"/>
+  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="c6905a0a27aa53add4c86fe85806082e0636bca1"/>
   <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="ab2fe13886e6bada574f876d80674349e6169b22"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
