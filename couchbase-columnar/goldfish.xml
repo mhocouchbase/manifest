@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- We're a modified 7.6.3 -->
+  <!-- We're a modified 7.6.4 -->
   <include name="couchbase-columnar/base-manifest_goldfish.xml"/>
 
   <!-- Pick up Analytics projects from goldfish/master branches -->
@@ -15,7 +15,7 @@
   <!-- from the parent, such as BSL stuff -->
   <remove-project name="build"/>
   <project name="build" path="cbbuild" groups="notdefault,build" revision="2beb97fb2e69a8f661d27821e77282dd1426d26a">
-    <annotation name="VERSION" value="1.0.3"     keep="true"/>
+    <annotation name="VERSION" value="1.0.4"     keep="true"/>
     <annotation name="SERVER_VERSION" value="7.6.4"     keep="true"/>
     <annotation name="SERVER_BLD_NUM" value="5001"     keep="true"/>
     <annotation name="SERVER_RELEASE" value="trinity"     keep="true"/>
