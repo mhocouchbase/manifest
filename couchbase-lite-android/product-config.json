@@ -25,7 +25,7 @@
             "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/3.1.xml": {
-            "release_name": "Couchbase Lite Android - Helium 3.1.9",
+            "release_name": "Couchbase Lite Android - Helium 3.1.10",
             "production": true,
             "interval": 43800,
             "restricted": false,
