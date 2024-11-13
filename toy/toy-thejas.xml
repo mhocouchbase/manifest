@@ -67,8 +67,7 @@
 
   <!-- Third-party projects -->
 
-  <project name="bleve" revision="spinMutex" remote="blevesearch" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="zapx" revision="mutex" remote="blevesearch" path="godeps/src/github.com/blevesearch/zapx"/>
+  <project name="bleve" revision="batchFlush" remote="blevesearch" path="godeps/src/github.com/blevesearch/bleve"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
