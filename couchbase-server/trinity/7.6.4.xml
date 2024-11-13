@@ -17,7 +17,7 @@
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise" revision="c57616b187889a5318688f49817ccaceb9c098b9"/>
   <project name="cbgt" revision="791a75b464f5a6f96ec1becf96e459a934827332"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="b93a39e6c46c3de1a73153d49579012f0737592b"/>
-  <project name="couchbase-cli" groups="kv" revision="9d200564a462adafbc8512643c9d25f55fd3ff93"/>
+  <project name="couchbase-cli" groups="kv" revision="trinity"/>
   <project name="couchdb" revision="trinity" dest-branch="unstable"/>
   <project name="couchstore" revision="ce7305bab3feb64bd2504f34d24a1419008e8bda" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="cf3254d7dfb042192c9a23bd2e64a281c32a29d8"/>
