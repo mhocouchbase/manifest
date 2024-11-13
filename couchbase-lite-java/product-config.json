@@ -13,7 +13,7 @@
             "jenkins_job": "couchbase-lite-java"
         },
         "couchbase-lite-java/3.2.xml": {
-            "release_name": "Couchbase Lite Java - Carbon 3.2.1",
+            "release_name": "Couchbase Lite Java - Nitrogen 3.2.2",
             "production": true,
             "interval": 90,
             "restricted": false,
@@ -25,7 +25,7 @@
             "jenkins_job": "couchbase-lite-java"
         },
         "couchbase-lite-java/3.1.xml": {
-            "release_name": "Couchbase Lite Java - Helium 3.1.10",
+            "release_name": "Couchbase Lite Java - Helium 3.1.11",
             "production": true,
             "interval": 43800,
             "restricted": false,
