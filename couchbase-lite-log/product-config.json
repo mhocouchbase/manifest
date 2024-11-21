@@ -13,7 +13,6 @@
             ]
        },
         "couchbase-lite-log/3.2.xml": {
-            "release": "3.2.1",
             "release_name": "Couchbase Lite Log - Beryllium",
             "production": true,
             "interval": 240,

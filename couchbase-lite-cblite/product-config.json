@@ -13,7 +13,6 @@
             ]
        },
         "couchbase-lite-cblite/3.2.xml": {
-            "release": "3.2.1",
             "release_name": "cblite tool - 3.2",
             "production": true,
             "interval": 240,
