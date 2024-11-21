@@ -8,7 +8,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="aws-sdk-cpp" path="AWSSDK" remote="couchbasedeps" revision="refs/tags/1.11.415" sync-s="true"/>
+  <project name="aws-sdk-cpp" path="AWSSDK" remote="couchbasedeps" revision="refs/tags/1.11.450" sync-s="true"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
