@@ -1,0 +1,16 @@
+{
+    "manifests": {
+        "cbdeps/ncurses/master.xml": {
+            "production": true,
+            "restricted": false,
+            "start_build": 1,
+            "jenkins_server": "server.jenkins.couchbase.com",
+            "jenkins_job": "cbdeps-build",
+            "do-build": false,
+            "platforms": [
+                "linux", "linux:aarch64"
+            ],
+            "keep_git": true
+        }
+    }
+}
