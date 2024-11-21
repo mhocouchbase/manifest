@@ -36,6 +36,7 @@
   <project name="kv_engine" groups="kv"/>
   <project name="libcouchbase" revision="684931e59cd87e0c6292e8142c2b18897be5b10c"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
+  <project name="fusion" revision="main" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server"/>
   <project name="vbmap"/>
   <project name="phosphor" groups="kv"/>
