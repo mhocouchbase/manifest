@@ -6,7 +6,7 @@
             "restricted": false,
             "start_build": 1,
             "trigger_blackduck": false,
-            "do-build": false,
+            "do-build": true,
             "create_source_tarball": false
         }
     }
