@@ -15,7 +15,7 @@
   <project name="cbft" revision="19ba128181450da0f565812d337ae8da28b0c07e"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="dd59a89ec9a09a05e1b821411f52bf037e959099"/>
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise" revision="c57616b187889a5318688f49817ccaceb9c098b9"/>
-  <project name="cbgt" revision="791a75b464f5a6f96ec1becf96e459a934827332"/>
+  <project name="cbgt" revision="4e524071e6f51ba22eb7e238bb4650aa3ddbbb4d"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="b93a39e6c46c3de1a73153d49579012f0737592b"/>
   <project name="couchbase-cli" groups="kv" revision="trinity"/>
   <project name="couchdb" revision="trinity" dest-branch="unstable"/>
