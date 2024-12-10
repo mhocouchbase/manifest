@@ -5,8 +5,10 @@
             "production": true,
             "restricted": false,
             "start_build": 1,
-            "jenkins_server": "server.jenkins.couchbase.com",
-            "jenkins_job": "no-op-build",
+            "jenkins_job": "cbdeps-build",
+            "platforms": [
+                "linux", "linux:aarch64"
+            ],
             "do-build": false,
             "keep_git": true
         }
