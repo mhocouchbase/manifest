@@ -313,6 +313,7 @@
             "start_build": 8000,
             "trigger_blackduck": false,
             "interval": 1455,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-54648"
