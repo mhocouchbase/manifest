@@ -6,7 +6,7 @@
   <!-- Pick up Analytics projects from goldfish/master branches -->
   <extend-project name="cbas-core" revision="goldfish" />
   <extend-project name="asterixdb" revision="goldfish" />
-  <extend-project name="analytics-dcp-client" revision="master" />
+  <extend-project name="analytics-dcp-client" revision="goldfish" />
   <extend-project name="cbas" revision="goldfish" />
   <extend-project name="cbas-ui" revision="master" />
 
