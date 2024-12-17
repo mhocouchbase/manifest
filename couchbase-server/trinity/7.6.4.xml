@@ -12,7 +12,7 @@
   <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise" revision="198c313f4059edfcb9ce51ee5996c1b5c7bfc782"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise" revision="ac23deaa5d166ee122222320e6d09bcee65769b7"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
-  <project name="cbft" revision=""6d016ef6264e86dfc45275329c56a393ee45a3f3/>
+  <project name="cbft" revision="6d016ef6264e86dfc45275329c56a393ee45a3f3"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="7d906e2891e26432a6b5441666e5d69fea53015f"/>
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise" revision="c57616b187889a5318688f49817ccaceb9c098b9"/>
   <project name="cbgt" revision="4e524071e6f51ba22eb7e238bb4650aa3ddbbb4d"/>
