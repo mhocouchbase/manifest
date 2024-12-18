@@ -1,5 +1,17 @@
 {
     "manifests": {
+        "couchbase-columnar/goldfish/1.0.5.xml": {
+            "release": "goldfish",
+            "release_name": "Goldfish (1.0.5)",
+            "parent": "couchbase-columnar/goldfish.xml",
+            "production": true,
+            "start_build": 2517,
+            "trigger_blackduck": true,
+            "interval": 1440,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-63819"
+        },
         "couchbase-columnar/goldfish.xml": {
             "release": "goldfish",
             "release_name": "Goldfish (1.0.6)",
