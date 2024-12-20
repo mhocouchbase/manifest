@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "couchbase-lite-edgeserver/main.xml": {
+        "couchbase-edge-server/main.xml": {
             "release_name": "CBL Edge Server - main branch",
             "production": true,
             "interval": 240,
