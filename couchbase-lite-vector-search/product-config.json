@@ -3,7 +3,19 @@
          "couchbase-lite-vector-search/master.xml": {
              "release_name": "Couchbase Lite Vector Search - vNext",
              "production": true,
-             "interval": 90,
+             "interval": 240,
+             "restricted": false,
+             "start_build": 1,
+             "keep_git": false,
+             "trigger_blackduck": false,
+             "module_projects": [
+                 "mobile-vector-search"
+             ]
+         },
+         "couchbase-lite-vector-search/1.0.xml": {
+             "release_name": "Couchbase Lite Vector Search - 1.0.x",
+             "production": true,
+             "interval": 1440,
              "restricted": false,
              "start_build": 1,
              "keep_git": false,

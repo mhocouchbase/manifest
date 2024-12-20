@@ -10,7 +10,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned vector search project              -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mobile-vector-search" remote="couchbaselabs-priv" groups="notdefault,enterprise" revision="main"/>
+  <project name="mobile-vector-search" remote="couchbaselabs-priv" groups="notdefault,enterprise" revision="release/1.0"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
@@ -26,6 +26,6 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="product-texts" path="product-texts" revision="master"/>
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
-    <annotation name="VERSION" value="2.0.0" keep="true"/>
+    <annotation name="VERSION" value="1.0.1" keep="true"/>
   </project>
 </manifest>
