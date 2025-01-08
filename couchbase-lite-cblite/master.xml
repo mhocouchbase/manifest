@@ -20,7 +20,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core-EE" path="couchbase-mobile-tools/vendor/couchbase-lite-core-EE" remote="couchbase-priv" revision="staging/master"/>
+  <project name="couchbase-lite-core-EE" path="couchbase-mobile-tools/vendor/couchbase-lite-core-EE" remote="couchbase-priv" />
   <project name="couchbase-lite-core" path="couchbase-mobile-tools/vendor/couchbase-lite-core" revision="staging/master"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-mobile-tools/vendor/couchbase-lite-core/wiki"/>
 
