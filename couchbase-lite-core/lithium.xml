@@ -42,6 +42,6 @@
     <annotation name="VERSION" value="3.0.17" keep="true"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Lite" keep="true"/>
     <annotation name="BSL_VERSION" value="3.0" keep="true"/>
-    <annotation name="BSL_CHANGE_DATE" value="November 1, 2025" keep="true"/>
+    <annotation name="BSL_CHANGE_DATE" value="June 28, 2028" keep="true"/>
   </project>
 </manifest>
