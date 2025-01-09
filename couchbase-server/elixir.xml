@@ -11,7 +11,6 @@
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise"/>
-  <!-- See MB-39790 for why cbft and cbgt are duplicated -->
   <project name="cbft"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise"/>
@@ -29,7 +28,7 @@
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" dest-branch="unstable" groups="bsl"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" dest-branch="unstable" groups="bsl"/>
-  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" revision="4a399fdbfd07100312c9cf88c21c864a6d4cfc1a"  groups="bsl,notdefault,enterprise"/>
+  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" revision="4a399fdbfd07100312c9cf88c21c864a6d4cfc1a"  groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="e36344ce0e37f1c15a3bf9d555a2aa01822f6c5d" groups="kv,bsl"/>
@@ -79,7 +78,7 @@
   <project name="clog"                                                               path="godeps/src/github.com/couchbase/clog"/>
   <project name="gocb"           revision="refs/tags/v2.2.5"                         path="godeps/src/github.com/couchbase/gocb/v2"/>
   <project name="gocbcore"       revision="refs/tags/v9.1.6"                         path="godeps/src/github.com/couchbase/gocbcore/v9"/>
-  <project name="gojsonsm"       remote="couchbaselabs"                              path="godeps/src/github.com/couchbaselabs/gojsonsm" groups="bsl"/>
+  <project name="gojsonsm"       remote="couchbaselabs"                              path="godeps/src/github.com/couchbaselabs/gojsonsm"/>
 
   <!-- Go support libraries - third-party -->
   <project name="uuid"           remote="couchbasedeps" revision="dec09d789f3dba190787f8b4454c7d3c936fed9e" path="godeps/src/github.com/google/uuid"/>

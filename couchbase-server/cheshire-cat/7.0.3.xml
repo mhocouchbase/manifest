@@ -11,7 +11,6 @@
   <!-- Core Couchbase Server projects -->
   <project name="backup" revision="b4b3a72970dd9a5688ebb712b7d629fa3cddc72a" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" revision="3a051de8db85fc319324349a0f6c3789164d2f68" remote="couchbase-priv" groups="backup,notdefault,enterprise"/>
-  <!-- See MB-39790 for why cbft and cbgt are duplicated -->
   <project name="cbft" revision="60c385dced68c95155cfcb3bfb3a7c0e709dd7fa" groups="bsl"/>
   <project name="cbftx" remote="couchbase-priv" revision="e2b89663cb7388edcc809821a3fd46ae795210f4" groups="notdefault,enterprise"/>
   <project name="cbgt" revision="2afe58209cf785f21b10fdacfa6fd100f182f650" groups="bsl"/>
