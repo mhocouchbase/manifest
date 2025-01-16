@@ -12,6 +12,18 @@
             "module_projects": [ "couchbase-lite-java-ee-root", "product-texts" ],
             "jenkins_job": "couchbase-lite-android"
         },
+        "couchbase-lite-android/4.0.xml": {
+            "release_name": "Couchbase Lite Android - Anemone 4.0.0b1 private beta",
+            "production": true,
+            "interval": 43800,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "do-build": true,
+            "module_projects": [ "couchbase-lite-java-ee-root", "product-texts" ],
+            "jenkins_job": "couchbase-lite-android"
+        },
         "couchbase-lite-android/3.2.xml": {
             "release_name": "Couchbase Lite Android - Nitrogen 3.2.2",
             "production": true,
