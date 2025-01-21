@@ -104,13 +104,7 @@
   <project name="magma" remote="couchbase-priv" revision="edf5c5c35b5206b3b815d2e47ae2ad23096d0133" groups="notdefault,enterprise,kv_ee" />
 
   <!-- debug replaces -->
-  <project name="bleve" revision="quickplayDebug" remote="blevesearch" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="zapx" revision="quickplayDebug-15" remote="blevesearch" path="godeps/src/github.com/blevesearch/zapx15"/>
-  <project name="zapx" revision="quickplayDebug-14" remote="blevesearch" path="godeps/src/github.com/blevesearch/zapx14"/>
-  <project name="zapx" revision="quickplayDebug-13" remote="blevesearch" path="godeps/src/github.com/blevesearch/zapx13"/>  
-  <project name="zapx" revision="quickplayDebug-12" remote="blevesearch" path="godeps/src/github.com/blevesearch/zapx12"/>
-  <project name="zapx" revision="quickplayDebug-11" remote="blevesearch" path="godeps/src/github.com/blevesearch/zapx11"/>
-  <project name="scorch_segment_api" revision="quickplayDebug" remote="blevesearch" path="godeps/src/github.com/blevesearch/scorch_segment_api"/>
+  <project name="bleve" revision="batchFlush" remote="blevesearch" path="godeps/src/github.com/blevesearch/bleve"/>
 
   <project name="mmap-go" path="godeps/src/github.com/blevesearch/mmap-go" remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" />
   <project name="mmap-go" path="godeps/src/github.com/edsrzf/mmap-go" remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8" />
