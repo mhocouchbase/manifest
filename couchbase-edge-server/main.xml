@@ -18,7 +18,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="build" path="cbbuild" revision="69c4950c7ae9a6b5fdc57b9f2f62c84b477b8bdd">
+  <project name="build" path="cbbuild" revision="175a1528a59895a6fa60882f99f24ad56cddbfb8">
     <annotation name="VERSION" value="1.0.0" keep="true"/>
   </project>
 
