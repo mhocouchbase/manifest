@@ -9,5 +9,15 @@
             "do-build": true,
             "create_source_tarball": false
         }
+    },
+        "model-serving-agent/0.1/0.1.1.xml": {
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 1,
+            "trigger_blackduck": false,
+            "do-build": true,
+            "create_source_tarball": false
+        }
     }
 }
