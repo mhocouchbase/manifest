@@ -20,8 +20,8 @@
             "ignore_projects": [ "build-tools" ],
             "keep_git": true
         },
-        "cbdeps/faiss/unstable.xml": {
-            "release": "unstable",
+        "cbdeps/faiss/toy.xml": {
+            "release": "toy",
             "restricted": false,
             "jenkins_server": "server.jenkins.couchbase.com",
             "jenkins_job": "cbdeps-build",
