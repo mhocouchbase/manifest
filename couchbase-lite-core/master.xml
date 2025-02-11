@@ -13,7 +13,6 @@
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core" groups="bsl">
-    <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
     <annotation name="BSL_REVIEW" value="github-pr" keep="true"/>
     <annotation name="BSL_REVIEWERS" value="jianminzhao,callumbirks" keep="true"/>
   </project>
