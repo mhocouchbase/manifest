@@ -34,6 +34,7 @@
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="mbedtls" remote="couchbasedeps" revision="c211590fa64f66ba582bb3f9a87ff0d09286578c" path="couchbase-lite-core/vendor/mbedtls"/>
+  <project name="linenoise-mob" remote="couchbasedeps" revision="8631d28ef0271ff29e041dbe459602c04fe8bc2c" path="couchbase-lite-core/vendor/linenoise-mob"/>
   <project name="ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-lite-core/vendor/ios-cmake"/>
   <project name="sockpp" remote="couchbasedeps" revision="01c7560ed14bf5a935f7e899f9eb4f72f7403d5d" path="couchbase-lite-core/vendor/sockpp"/>
   <project name="zlib" remote="couchbasedeps" revision="51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf" path="couchbase-lite-core/vendor/zlib"/>
