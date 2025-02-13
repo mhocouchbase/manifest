@@ -13,7 +13,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and tools      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core-EE" path="edge-server/vendor/tools/vendor/couchbase-lite-core-EE" remote="couchbase-priv" revision="feature/edge_server"/>
+  <project name="couchbase-lite-core-EE" path="edge-server/vendor/couchbase-lite-core-EE" remote="couchbase-priv" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
@@ -22,6 +22,6 @@
     <annotation name="VERSION" value="1.0.0" keep="true"/>
   </project>
 
-  # Want these explicitly master, regardless of the default
+  <!-- Want these explicitly master, regardless of the default -->
   <project name="product-texts" revision="master"/>
 </manifest>
