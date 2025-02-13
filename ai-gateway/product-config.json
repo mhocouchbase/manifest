@@ -15,7 +15,7 @@
             "restricted": false,
             "start_build": 1,
             "trigger_blackduck": true,
-            "do-build": true,
+            "do-build": false,
             "keep_git": true
         }
     }
