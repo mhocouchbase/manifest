@@ -8,6 +8,15 @@
             "start_build": 1,
             "trigger_blackduck": true,
             "keep_git": true
+       },
+       "couchbase-edge-server/1.0.xml": {
+            "release_name": "CBL Edge Server - 1.0.x branch",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 1,
+            "trigger_blackduck": true,
+            "keep_git": true
        }
     }
 }
