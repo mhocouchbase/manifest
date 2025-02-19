@@ -6,11 +6,7 @@
             "interval": 240,
             "restricted": false,
             "start_build": 1,
-            "keep_git": true,
-            "module_projects": [
-                "couchbase-mobile-tools",
-                "couchbase-lite-core"
-            ]
+            "keep_git": true
        },
         "couchbase-lite-log/3.2.xml": {
             "release_name": "Couchbase Lite Log - Beryllium",

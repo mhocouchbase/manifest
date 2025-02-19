@@ -6,11 +6,7 @@
             "interval": 240,
             "restricted": false,
             "start_build": 1,
-            "keep_git": true,
-            "module_projects": [
-                "couchbase-mobile-tools",
-                "couchbase-lite-core"
-            ]
+            "keep_git": true
        },
         "couchbase-lite-cblite/3.2.xml": {
             "release_name": "cblite tool - 3.2",
