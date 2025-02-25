@@ -9,6 +9,7 @@
   <extend-project name="analytics-dcp-client" revision="master" />
   <extend-project name="cbas" revision="master" />
   <extend-project name="cbas-ui" revision="master" />
+  <extend-project name="couchbase-cli" revision="817b7eaa3b88000361d9fac550c77dc8a8e122eb" />
 
   <!-- Update build project to provide different annotations -->
   <remove-project name="build"/>
