@@ -8,7 +8,7 @@
   <extend-project name="asterixdb" revision="goldfish" />
   <extend-project name="analytics-dcp-client" revision="goldfish" />
   <extend-project name="cbas" revision="goldfish" />
-  <extend-project name="cbas-ui" revision="master" />
+  <extend-project name="cbas-ui" revision="011d6a502cfb84af4a64bb1ca198e28daa375de9" />
 
   <!-- Replace build repo to provide different annotations -->
   <!-- Don't use just extend-project as that leaves in other annotations -->
