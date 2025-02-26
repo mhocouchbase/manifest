@@ -18,7 +18,7 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="f87fb845cec005a9b0be9813b1cfaac0af84d964"/>
   <project name="couchbase-cli" revision="e0478f04cce0b1b0c7b7d71e86e0335a965a4181" groups="kv"/>
   <project name="couchdb" revision="566c17e213546f9b1d56a185c8794d2facdcbe50"/>
-  <project name="couchstore" revision="42e62095c614f704d004d10fe50d324ff4a0dc1f" groups="kv"/>
+  <project name="couchstore" revision="7.2.3" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="2e6af0c097c8bb98a596cbc81cdf6e169ae5b3cc"/>
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
