@@ -31,10 +31,10 @@
   <project name="plasma" revision="7fdefc0c7ead2483872e3ff603c26264a6261eee" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="416401b329b49dc1ab4b6193aa6e4e0c73be9484" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="869756d1855b3f51b2a2380ba48c8b2dc7488e95" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="kv_engine" revision="2da6480644fc5cd0fcd951b31cd523d6a5318304" groups="kv,bsl"/>
+  <project name="kv_engine" revision="7.2.3" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.3.5"/>
   <project name="magma" revision="478d32bbb71034412f567c1220314114e4e679a1" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
-  <project name="ns_server" revision="38974e73c78db330653433f5412f48ee0550196d" groups="bsl"/>
+  <project name="ns_server" revision="7.2.3" groups="bsl"/>
   <project name="chronicle" revision="7de1bde10de09979908c30813d88fe2d73b425ed" path="ns_server/deps/chronicle"/>
   <project name="vbmap" revision="d56dc3cbd0507f0906c9214739d9ea1ec3da5f22"/>
   <project name="phosphor" groups="bsl,kv" revision="2eb6c244d6910baf2834513ece579ba88e4f9b9d"/>
