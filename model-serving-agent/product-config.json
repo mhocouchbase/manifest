@@ -2,7 +2,7 @@
     "manifests": {
         "model-serving-agent/main.xml": {
             "production": true,
-            "interval": 1440,
+            "interval": 4320,
             "restricted": false,
             "start_build": 1,
             "trigger_blackduck": false,
