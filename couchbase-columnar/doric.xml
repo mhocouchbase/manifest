@@ -9,6 +9,7 @@
   <extend-project name="analytics-dcp-client" revision="master" />
   <extend-project name="cbas" revision="master" />
   <extend-project name="cbas-ui" revision="master" />
+  <project name="columnar-ui-v1" remote="couchbase-priv" groups="notdefault,enterprise,analytics" />
 
   <!-- Update build project to provide different annotations -->
   <remove-project name="build"/>
