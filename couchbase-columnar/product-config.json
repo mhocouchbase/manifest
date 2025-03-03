@@ -24,17 +24,29 @@
             "restricted": true,
             "approval_ticket": "MB-64561"
         },
-        "couchbase-columnar/ionic.xml": {
+        "couchbase-columnar/ionic/1.1.0.xml": {
             "release": "ionic",
             "release_name": "Ionic (1.1.0)",
-            "parent": "couchbase-columnar/doric.xml",
+            "parent": "couchbase-columnar/ionic.xml",
             "production": true,
             "start_build": 1000,
+            "trigger_blackduck": true,
+            "interval": 1440,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-63000"
+        },
+        "couchbase-columnar/ionic.xml": {
+            "release": "ionic",
+            "release_name": "Ionic (1.1.1)",
+            "parent": "couchbase-columnar/doric.xml",
+            "production": true,
+            "start_build": 1250,
             "trigger_blackduck": true,
             "interval": 222,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-63000"
+            "approval_ticket": "MB-65587"
         },
         "couchbase-columnar/doric.xml": {
             "release": "doric",
