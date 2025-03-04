@@ -9,6 +9,7 @@
   <extend-project name="analytics-dcp-client" revision="master" />
   <extend-project name="cbas" revision="master" />
   <extend-project name="cbas-ui" revision="master" />
+  <extend-project name="tlm" revision="709e997d7b21b88b63a5f6b59b61ec59ecc50788"/>
 
   <!-- Update build project to provide different annotations -->
   <remove-project name="build"/>
