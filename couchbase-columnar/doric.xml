@@ -9,7 +9,6 @@
   <extend-project name="analytics-dcp-client" revision="master" />
   <extend-project name="cbas" revision="master" />
   <extend-project name="cbas-ui" revision="master" />
-  <extend-project name="tlm" revision="709e997d7b21b88b63a5f6b59b61ec59ecc50788"/>
 
   <!-- Update build project to provide different annotations -->
   <remove-project name="build"/>
@@ -23,26 +22,4 @@
     <annotation name="PRODUCT" value="couchbase-columnar"/>
   </project>
 
-  <remove-project name="query"/>
-  <remove-project name="query-ee"/>
-  <remove-project name="indexing"/>
-  <remove-project name="goxdcr"/>
-  <remove-project name="xdcrDiffer"/>
-  <remove-project name="gometa"/>
-  <remove-project name="cbft"/>
-  <remove-project name="cbftx"/>
-  <remove-project name="cbgt"/>
-  <remove-project name="hebrew"/>
-  <remove-project name="eventing"/>
-  <remove-project name="eventing-ee"/>
-  <remove-project name="cbbs"/>
-  <remove-project name="n1fty"/>
-  <remove-project name="bhive"/>
-  <remove-project name="plasma"/>
-  <remove-project name="fusion"/>
-  <remove-project name="gocbcrypto"/>
-  <!-- we can't remove the following at least while we have a test dependency on samples
-  <remove-project name="magma"/>
-  <remove-project name="backup"/>
- -->
 </manifest>
