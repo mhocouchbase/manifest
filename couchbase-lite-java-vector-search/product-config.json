@@ -1,9 +1,20 @@
 {
     "manifests": {
+        "couchbase-lite-java-vector-search/2.0.xml": {
+            "release_name": "Java Vector Search Extensions - v2.0.0",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": false,
+            "do-build": true,
+            "jenkins_job": "couchbase-lite-java-vs"
+        }
         "couchbase-lite-java-vector-search/1.0.xml": {
             "release_name": "Java Vector Search Extensions - v1.0.0",
             "production": true,
-            "interval": 90,
+            "interval": 43800,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
