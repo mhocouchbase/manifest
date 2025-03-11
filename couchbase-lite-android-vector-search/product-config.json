@@ -10,7 +10,7 @@
             "trigger_blackduck": false,
             "do-build": true,
             "jenkins_job": "couchbase-lite-android-vs"
-        }
+        },
         "couchbase-lite-android-vector-search/1.0.xml": {
             "release_name": "Android Vector Search Extensions - v1.0.0",
             "production": true,
