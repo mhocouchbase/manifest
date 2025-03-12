@@ -24,7 +24,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core Tools          -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project remote="couchbaselabs" name="litecore-download-script" path="cbl-java/core_tools" revision="37b89649a2df6e29e2d18dea174cb0f8b3e2a030"/>
+  <project remote="couchbaselabs" name="litecore-download-script" path="cbl-java/core_tools" revision="a71a5a9f2bb808cb2c45a82fe39fd5d4c43e5597"/>
  
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase Licensing and Legal                      -->
