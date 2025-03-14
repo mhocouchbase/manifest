@@ -25,7 +25,7 @@
             "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/3.2.xml": {
-            "release_name": "Couchbase Lite Android - Nitrogen 3.2.2",
+            "release_name": "Couchbase Lite Android - Oxygen 3.2.3",
             "production": true,
             "interval": 90,
             "restricted": false,

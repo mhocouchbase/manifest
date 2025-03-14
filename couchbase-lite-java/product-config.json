@@ -25,7 +25,7 @@
             "jenkins_job": "couchbase-lite-java"
         },
         "couchbase-lite-java/3.2.xml": {
-            "release_name": "Couchbase Lite Java - Nitrogen 3.2.2",
+            "release_name": "Couchbase Lite Java - Oxygen 3.2.3",
             "production": true,
             "interval": 90,
             "restricted": false,
