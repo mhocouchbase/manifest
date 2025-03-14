@@ -2,8 +2,8 @@
 <manifest>
   <remote name="couchbase" fetch="https://github.com/couchbase" review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="ssh://git@github.com/couchbaselabs/" />
-  <project name="vulcan-core" remote="couchbaselabs" revision="master"/>
+  <project name="vulcan-core" remote="couchbaselabs" revision="44a2a66aa410a84f9884c1ebf1a08faf4693dea4"/>
   <project name="build" remote="couchbase" revision="4c88139fd4810c8bfd99c6bb91a936c827e065e1">
-    <annotation name="VERSION" value="0.2.0" keep="true"/>
+    <annotation name="VERSION" value="0.1.2" keep="true"/>
   </project>
 </manifest>

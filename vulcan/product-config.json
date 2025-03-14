@@ -6,6 +6,15 @@
             "restricted": false,
             "start_build": 1,
             "trigger_blackduck": true,
+            "do-build": false,
+            "keep_git": true
+        },
+        "vulcan/0.1.xml": {
+            "production": true,
+            "interval": 240,
+            "restricted": false,
+            "start_build": 1,
+            "trigger_blackduck": true,
             "do-build": true,
             "keep_git": true
         }
