@@ -27,7 +27,7 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="6775f5aef81c55a48f4ed2591bdfb5a957ac75dd" upstream="master" dest-branch="master" groups="bsl" />
   <project name="couchbase-cli" revision="e03d8efdaaebc5797c25c0d54832f20faacae01f" upstream="master" dest-branch="master" groups="kv" />
   <project name="couchdb" revision="ae3cc8c6e1bd3ae915d2ff691de5a54f729a05e4" upstream="master" dest-branch="unstable" />
-  <project name="couchdbx-app" revision="5261b8844cea741087f36de52cecba8c2c8865da" upstream="master" dest-branch="master" groups="notdefault,packaging" />
+  <project name="couchdbx-app" revision="master" upstream="master" dest-branch="master" groups="notdefault,packaging" />
   <project name="couchstore" revision="6434289bde4aac45d21ff5858a4eeda368d46eb9" upstream="master" dest-branch="master" groups="kv" />
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="218129e2b4b06c6381c7aabb7b5c78dff7f07e3c" upstream="master" dest-branch="master" />
   <project name="forestdb" revision="9efe6d75d7d61e742af70fb47fe97ad1d04ba86f" upstream="cb-master" dest-branch="cb-master" groups="backup" />
