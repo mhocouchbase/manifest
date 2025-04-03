@@ -21,7 +21,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" revision="bbd241d96dfbe4b244d65f5cb9a2c2ee25ce3020" path="couchbase-lite-c/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="411b994eaf843c50061c33b9a93a7d00e0ce1561" path="couchbase-lite-c/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core-EE" revision="6cc2f7f1e2a097679d2e08ab86369707324faacf" path="couchbase-lite-c-ee/couchbase-lite-core-EE" remote="couchbase-priv" groups="notdefault, enterprise"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -36,7 +36,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mbedtls" remote="couchbasedeps" revision="18cd3603d8a0879315b1bd56a2517a34b2673570" path="couchbase-lite-c/vendor/couchbase-lite-core/vendor/mbedtls"/>
+  <project name="mbedtls" remote="couchbasedeps" revision="4d70a5aabf0f37091e7e470bcb518cbc359427a9" path="couchbase-lite-c/vendor/couchbase-lite-core/vendor/mbedtls"/>
   <project name="ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-lite-c/vendor/couchbase-lite-core/vendor/ios-cmake"/>
   <project name="sockpp" remote="couchbasedeps" revision="01c7560ed14bf5a935f7e899f9eb4f72f7403d5d" path="couchbase-lite-c/vendor/couchbase-lite-core/vendor/sockpp"/>
   <project name="zlib" remote="couchbasedeps" revision="51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf" path="couchbase-lite-c/vendor/couchbase-lite-core/vendor/zlib"/>
