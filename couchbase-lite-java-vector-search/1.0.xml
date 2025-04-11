@@ -20,5 +20,5 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase Licensing and Legal                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="product-texts" path="cbl-vs/legal"/>
+  <project name="product-texts" path="cbl-vs/legal" revision="master"/>
 </manifest>
