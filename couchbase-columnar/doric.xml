@@ -22,7 +22,8 @@
     <annotation name="COLUMNAR" value="true"     keep="true"/>
     <annotation name="PRODUCT" value="couchbase-columnar"/>
     <annotation name="COLUMNAR_COMPAT_VERSION" value="1.2.0"/>
-    <annotation name="MIN_SUPPORTED_COLUMNAR_COMPAT_VERSION" value="1.0.5"/>
+    <annotation name="MIN_SUPPORTED_COLUMNAR_COMPAT_VERSION" value="1.2.0"/>
+    <annotation name="MIN_SUPPORTED_COLUMNAR_PROVISIONED_COMPAT_VERSION" value="1.0.5"/>
   </project>
 
   <remove-project name="query"/>
