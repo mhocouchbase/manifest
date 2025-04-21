@@ -21,7 +21,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="fleece" remote="couchbase" revision="508cd1e43863dea2e182d41edec4d869c5b83f6d" path="couchbase-lite-core/vendor/fleece" groups="bsl" dest-branch="master">
+  <project name="fleece" remote="couchbase" revision="405cec42e4f52ff7fce42bff989eb72cbd4872f8" path="couchbase-lite-core/vendor/fleece" groups="bsl" dest-branch="master">
     <annotation name="BSL_REVIEW" value="github-pr" keep="true"/>
     <annotation name="BSL_REVIEWERS" value="snej,pasin" keep="true"/>
   </project>
