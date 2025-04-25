@@ -40,7 +40,7 @@
   <project name="phosphor" groups="bsl,kv" revision="c0a034fe407eec4723f2e01db2d72762efdbc276"/>
   <project name="platform" revision="0e7a802da6c66ae81c113a7314251a2816ccc9af" groups="bsl,kv"/>
   <project name="product-texts"/>
-  <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="d553514237b4c396e1c2f0618f46154ddbef224a"/>
+  <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="7.6.5"/>
   <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="7.6.5"/>
   <project name="query-ui" groups="bsl" revision="c5009a66c1c2e0f5ed8d868d4bb17ba337a5ca9d"/>
   <project name="regulator" revision="4ef404748ecc34fd87bdebc56074ebe99d240464" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
@@ -68,7 +68,7 @@
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
-  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="2f7e511a565bc470b3d6ae73836660fc21c84aab"/>
+  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="7.6.5"/>
   <project name="go_json" path="goproj/src/github.com/couchbase/go_json" revision="d6e17ad2b9a218e82569e09b761c226fa8df726a"/>
   <project name="gomemcached" path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="8171511423044401c5ebf4c5cad1bd1397835548"/>
   <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" groups="backup" revision="7e2c65d6c289a1eca62917d001000ced20948a4a"/>
