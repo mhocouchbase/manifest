@@ -57,7 +57,6 @@
             "interval": 1440,
             "keep_git": true,
             "restricted": false,
-            "do-build": false,
             "approval_ticket": "MB-65216"
         }
     }
