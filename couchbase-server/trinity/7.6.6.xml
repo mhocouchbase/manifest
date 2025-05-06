@@ -12,7 +12,7 @@
   <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise" revision="0b9d774840dd95d68f1a6bf61dc31a3c8a1b1afd"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise" revision="a43cabc63854764aea7f9e2e0fa883b76919a875"/>
   <project name="cbft" revision="7.6.6"/>
-  <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="5c66959a6a17937be5f9d77f7c18cc362d9d0f1a"/>
+  <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="7.6.6"/>
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise" revision="c57616b187889a5318688f49817ccaceb9c098b9"/>
   <project name="cbgt" revision="066cc3bed17ba9c274b62f52eda4570b240eaac4"/>
   <project name="cbsummary" revision="b93a39e6c46c3de1a73153d49579012f0737592b" path="goproj/src/github.com/couchbase/cbsummary"/>
