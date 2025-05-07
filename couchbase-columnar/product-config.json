@@ -38,15 +38,15 @@
         },
         "couchbase-columnar/ionic.xml": {
             "release": "ionic",
-            "release_name": "Ionic (1.1.1)",
+            "release_name": "Ionic (1.1.2)",
             "parent": "couchbase-columnar/doric.xml",
             "production": true,
-            "start_build": 1250,
+            "start_build": 1350,
             "trigger_blackduck": true,
             "interval": 222,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-65587"
+            "approval_ticket": "MB-66611"
         },
         "couchbase-columnar/doric.xml": {
             "release": "doric",
