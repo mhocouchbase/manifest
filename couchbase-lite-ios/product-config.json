@@ -8,11 +8,7 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true,
-            "do-build": true,
-            "module_projects": [
-                "couchbase-lite-ios-ee",
-                "couchbase-lite-ios"
-            ]
+            "do-build": true
         },
         "couchbase-lite-ios/3.2.xml": {
             "release_name": "Couchbase Lite iOS - 3.2",
