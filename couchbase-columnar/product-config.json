@@ -52,7 +52,7 @@
             "release": "doric",
             "release_name": "Doric (1.2.0)",
             "production": true,
-            "start_build": 1000,
+            "start_build": 1150,
             "trigger_blackduck": true,
             "interval": 1440,
             "keep_git": true,
