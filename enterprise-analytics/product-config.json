@@ -1,0 +1,15 @@
+{
+    "manifests": {
+        "enterprise-analytics/phoenix.xml": {
+            "release": "phoenix",
+            "release_name": "Phoenix (2.0.0)",
+            "production": true,
+            "start_build": 1000,
+            "trigger_blackduck": true,
+            "interval": 1440,
+            "keep_git": true,
+            "jenkins_job": "couchbase-columnar-build",
+            "restricted": false
+        }
+    }
+}
