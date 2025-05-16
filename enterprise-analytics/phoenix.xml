@@ -20,11 +20,11 @@
   <project name="build" path="cbbuild" revision="0961883a4a6afcc1fb82e9e876af454f43944298" upstream="master" dest-branch="master" groups="notdefault,build">
     <annotation name="VERSION" value="2.0.0"     keep="true"/>
     <annotation name="SERVER_VERSION" value="8.0.0"     keep="true"/>
-    <annotation name="SERVER_BLD_NUM" value="3112"     keep="true"/>
+    <annotation name="SERVER_BLD_NUM" value="3135"     keep="true"/>
     <annotation name="SERVER_RELEASE" value="morpheus"     keep="true"/>
     <annotation name="COLUMNAR" value="true"     keep="true"/>
-    <annotation name="COLUMNAR_COMPAT_VERSION" value="1.2.0"/>
-    <annotation name="MIN_SUPPORTED_COLUMNAR_COMPAT_VERSION" value="1.2.0"/>
+    <annotation name="COLUMNAR_COMPAT_VERSION" value="2.0.0"/>
+    <annotation name="MIN_SUPPORTED_COLUMNAR_COMPAT_VERSION" value="2.0.0"/>
     <annotation name="MIN_SUPPORTED_COLUMNAR_PROVISIONED_COMPAT_VERSION" value="1.0.5"/>
   </project>
 
