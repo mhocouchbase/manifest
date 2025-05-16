@@ -6,12 +6,12 @@
   <include name="couchbase-columnar/base-manifest_doric.xml"/>
 
   <!-- Pick up Analytics projects from master branches -->
-  <extend-project name="cbas-core" revision="master" />
-  <extend-project name="asterixdb" revision="master" />
-  <extend-project name="analytics-dcp-client" revision="master" />
-  <extend-project name="cbas" revision="master" />
-  <extend-project name="cbas-ui" revision="master" />
-  <project name="columnar-ui-v1" groups="notdefault,enterprise,analytics" />
+  <extend-project name="cbas-core" revision="172bc6133b89957fbddd24811bb256e543d64b12" />
+  <extend-project name="asterixdb" revision="b277226fac010a1ae08eb4e299a627ec02b7fac6" />
+  <extend-project name="analytics-dcp-client" revision="d87c580cfe0c2ca762ca684095fa29eef477adf6" />
+  <extend-project name="cbas" revision="07d4d5d0d3ddb1f30f0ec5ed9aae0e2000ef0eea" />
+  <extend-project name="cbas-ui" revision="fa560d8e7f3f10020721676063de57e53f50152b" />
+  <project name="columnar-ui-v1" revision="26bfdf40280509411dc27220b1225bb668ea8b75" groups="notdefault,enterprise,analytics" />
 
   <extend-project name="ns_server" remote="mblow" revision="af14abe4f3c819362dfb5778020fc9bb51f28b8e"/>
 
@@ -22,9 +22,7 @@
     <annotation name="SERVER_VERSION" value="8.0.0"     keep="true"/>
     <annotation name="SERVER_BLD_NUM" value="3112"     keep="true"/>
     <annotation name="SERVER_RELEASE" value="morpheus"     keep="true"/>
-    <annotation name="RELEASE" value="doric"     keep="true"/>
     <annotation name="COLUMNAR" value="true"     keep="true"/>
-    <annotation name="PRODUCT" value="couchbase-columnar"/>
     <annotation name="COLUMNAR_COMPAT_VERSION" value="1.2.0"/>
     <annotation name="MIN_SUPPORTED_COLUMNAR_COMPAT_VERSION" value="1.2.0"/>
     <annotation name="MIN_SUPPORTED_COLUMNAR_PROVISIONED_COMPAT_VERSION" value="1.0.5"/>
