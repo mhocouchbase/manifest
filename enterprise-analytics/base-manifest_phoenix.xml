@@ -33,7 +33,7 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="4b185fb7d5f0e136755756b8cc3029ec64d51639" upstream="master" dest-branch="master" groups="bsl" />
   <project name="couchbase-cli" revision="8b7ce2d68448c0b0f60dd60757e0d0d9d9dafabf" upstream="master" dest-branch="master" groups="kv" />
   <project name="couchdb" revision="54d030f7798f0317fea3502be73066c7cf0d03b0" upstream="master" dest-branch="unstable" />
-  <project name="couchdbx-app" revision="b0f4b2707a110c8eb585af96578bb72c1eea7f3c" upstream="master" dest-branch="master" groups="notdefault,packaging" />
+  <project name="couchdbx-app" revision="c62fa195226b3204e53b2d97a6c66f38ebdaf72c" upstream="master" dest-branch="master" groups="notdefault,packaging" />
   <project name="couchstore" revision="0a5ffd46858f195223d33490fba567204cbded29" upstream="master" dest-branch="master" groups="kv" />
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="218129e2b4b06c6381c7aabb7b5c78dff7f07e3c" upstream="master" dest-branch="master" />
   <project name="eventing" path="goproj/src/github.com/couchbase/eventing" revision="08479f3279ec2391184cff5cb5519b774d90b168" upstream="master" dest-branch="unstable" groups="notdefault,enterprise" />
