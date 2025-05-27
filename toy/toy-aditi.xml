@@ -70,7 +70,7 @@
   <!-- Third-party projects -->
   <project name="zapx"  remote="blevesearch" revision="bq" path="godeps/src/github.com/blevesearch/zapx"/>
   <project name="go-faiss"  remote="blevesearch" revision="bq" path="godeps/src/github.com/blevesearch/go-faiss"/>
-
+  <project name="bleve_index_api"  remote="blevesearch" revision="bq" path="godeps/src/github.com/blevesearch/bleve_index_api"/> 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
   <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty" groups="bsl"/>
