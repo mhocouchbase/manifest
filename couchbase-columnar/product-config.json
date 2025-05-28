@@ -36,6 +36,18 @@
             "restricted": true,
             "approval_ticket": "MB-63000"
         },
+        "couchbase-columnar/ionic/1.1.1.xml": {
+            "release": "ionic",
+            "release_name": "Ionic (1.1.1-MP1)",
+            "parent": "couchbase-columnar/ionic.xml",
+            "production": true,
+            "start_build": 1303,
+            "trigger_blackduck": true,
+            "interval": 7295,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-66963"
+        },
         "couchbase-columnar/ionic.xml": {
             "release": "ionic",
             "release_name": "Ionic (1.1.2)",
