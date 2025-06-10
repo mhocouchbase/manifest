@@ -4,7 +4,7 @@
   <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
 
-  <default remote="couchbase" revision="android/release/4.0"/>
+  <default remote="couchbase" revision="java/release/3.3"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
@@ -12,9 +12,9 @@
   <project name="build" path="cbbuild" groups="notdefault" revision="fa5df77677945a629aeb82aeaa3d43218df2a88d">
     <!--
     Before releasing versions with this manifest, you probably want to update master.xml
-    to make sure it isn't also creating 4.0 builds.
+    to make sure it isn't also creating 3.3 builds.
     -->
-    <annotation name="VERSION" value="4.0.0" keep="true"/>
+    <annotation name="VERSION" value="3.3.0" keep="true"/>
   </project>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->

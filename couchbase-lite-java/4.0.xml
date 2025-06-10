@@ -11,11 +11,10 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild" groups="notdefault" revision="fa5df77677945a629aeb82aeaa3d43218df2a88d">
     <!--
-    Before changing this to 4.0.0 for the GA release,
-    update the VERSION in the master manifest to be some
-    version *other* than 4.0.0
+    Before releasing versions with this manifest, you probably want to update master.xml
+    to make sure it isn't also creating 4.0 builds.
     -->
-    <annotation name="VERSION" value="4.0.0b1" keep="true"/>
+    <annotation name="VERSION" value="4.0.0" keep="true"/>
   </project>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
