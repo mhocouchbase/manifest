@@ -11,6 +11,9 @@
   <extend-project name="cbas-ui" revision="master" />
   <project name="columnar-ui-v1" groups="notdefault,enterprise,analytics" />
 
+  <!-- temp for MB-67065,MB-67062 -->
+  <extend-project name="ns_server" revision="df8c75fa859126eb572403ead852d37f78f431e9" />
+
   <!-- Update build project to provide different annotations -->
   <remove-project name="build"/>
   <project name="build" path="cbbuild" revision="d3ce6c1c71eb5d119273882cf233b69cdcddeff1" upstream="master" dest-branch="master" groups="notdefault,build">
