@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- We're a modified morpheus -->
-  <include name="enterprise-analytics/base-manifest_phoenix.xml"/>
+  <include name="couchbase-server/phoenix.xml"/>
 
   <!-- Pick up Analytics projects from master branches -->
   <extend-project name="cbas-core" revision="master" />
