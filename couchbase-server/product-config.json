@@ -157,7 +157,7 @@
             "release_name": "Neo (7.2.8)",
             "parent": "couchbase-server/neo.xml",
             "production": true,
-            "start_build": 8500,
+            "start_build": 8800,
             "trigger_blackduck": true,
             "interval": 121,
             "keep_git": true,
