@@ -6,7 +6,7 @@
   <!-- Pick up Analytics projects from ionic/master branches -->
   <extend-project name="cbas-core" revision="ionic" />
   <extend-project name="asterixdb" revision="ionic" />
-  <extend-project name="analytics-dcp-client" revision="ac51c5858ac0453fa10ff6695cdbdb8c780b7d45" />
+  <extend-project name="analytics-dcp-client" revision="ionic" />
   <extend-project name="cbas" revision="ionic" />
   <extend-project name="cbas-ui" revision="011d6a502cfb84af4a64bb1ca198e28daa375de9" />
 
