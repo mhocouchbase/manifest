@@ -4,13 +4,13 @@
   <include name="enterprise-analytics/base-manifest_phoenix.xml"/>
 
   <!-- Pick up the ns_server project from the phoenix branch -->
-  <extend-project name="ns_server" revision="phoenix" />
+  <extend-project name="ns_server" revision="phoenix" dest-branch="phoenix" />
 
   <!-- Pick up Analytics projects from master branches -->
-  <extend-project name="cbas-core" revision="master" />
-  <extend-project name="asterixdb" revision="master" />
-  <extend-project name="analytics-dcp-client" revision="master" />
-  <extend-project name="cbas" revision="master" />
-  <extend-project name="cbas-ui" revision="master" />
+  <extend-project name="cbas-core" revision="master" dest-branch="master" />
+  <extend-project name="asterixdb" revision="master" dest-branch="master" />
+  <extend-project name="analytics-dcp-client" revision="master" dest-branch="master" />
+  <extend-project name="cbas" revision="master" dest-branch="master" />
+  <extend-project name="cbas-ui" revision="master" dest-branch="master" />
 
 </manifest>
