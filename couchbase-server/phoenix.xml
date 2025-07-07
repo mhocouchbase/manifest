@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- We're consume a manifest based upon a validated Morpheus build -->
+  <!-- We consume a manifest based upon a validated Morpheus build -->
   <include name="enterprise-analytics/base-manifest_phoenix.xml"/>
 
   <!-- Pick up the ns_server project from the phoenix branch -->
   <extend-project name="ns_server" revision="phoenix" />
+
+  <!-- Pick up Analytics projects from master branches -->
+  <extend-project name="cbas-core" revision="master" />
+  <extend-project name="asterixdb" revision="master" />
+  <extend-project name="analytics-dcp-client" revision="master" />
+  <extend-project name="cbas" revision="master" />
+  <extend-project name="cbas-ui" revision="master" />
+
 </manifest>

@@ -2,12 +2,6 @@
 <manifest>
   <include name="couchbase-server/phoenix.xml"/>
 
-  <!-- Pick up Analytics projects from master branches -->
-  <extend-project name="cbas-core" revision="master" />
-  <extend-project name="asterixdb" revision="master" />
-  <extend-project name="analytics-dcp-client" revision="master" />
-  <extend-project name="cbas" revision="master" />
-  <extend-project name="cbas-ui" revision="master" />
   <project name="columnar-ui-v1" groups="notdefault,enterprise,analytics" />
 
   <!-- Update build project to provide different annotations -->
