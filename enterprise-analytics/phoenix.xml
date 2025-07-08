@@ -2,7 +2,7 @@
 <manifest>
   <include name="couchbase-server/phoenix.xml"/>
 
-  <project name="columnar-ui-v1" groups="notdefault,enterprise,analytics" />
+  <project name="columnar-ui-v1" groups="notdefault,build,enterprise,analytics" />
 
   <!-- Update build project to provide different annotations -->
   <remove-project name="build"/>
