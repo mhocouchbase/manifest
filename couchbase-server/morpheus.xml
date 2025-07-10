@@ -39,7 +39,7 @@
   <project name="fusion" revision="main" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server" revision="morpheus" groups="bsl"/>
   <project name="vbmap"/>
-  <project name="phosphor" groups="bsl,kv"/>
+  <project name="phosphor" revision="478dfeb2001957e6933d17287e50dfdc8534072d" groups="bsl,kv"/>
   <project name="platform" groups="bsl,kv"/>
   <project name="product-texts"/>
   <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
@@ -47,7 +47,7 @@
   <project name="query-ui" groups="bsl"/>
   <project name="regulator" revision="main" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="sigar" groups="kv"/>
-  <project name="subjson" groups="bsl,kv"/>
+  <project name="subjson" revision="ae77e5120fa08e93ba0f541670c46a4a3d1825cc" groups="bsl,kv"/>
   <project name="testrunner"/>
   <project name="tlm" groups="bsl,kv">
     <copyfile src="Build.sh" dest="Build.sh" />
