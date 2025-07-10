@@ -9,7 +9,8 @@
             "interval": 1440,
             "keep_git": true,
             "jenkins_job": "couchbase-columnar-build",
-            "restricted": false
+            "restricted": true,
+            "approval_ticket": "MB-65216"
         }
     }
 }
