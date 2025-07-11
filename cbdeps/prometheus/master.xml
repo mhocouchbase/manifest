@@ -19,6 +19,7 @@
     <annotation name="VERSION" value="2.45.0" keep="true"/>
     <annotation name="BD_VERSION" value="v2.45.0" keep="true"/>
     <annotation name="GOVERSION" value="SUPPORTED_NEWER" keep="true"/>
+    <annotation name="NODEJS_VERSION" value="16.5.0" keep="true"/>
   </project>
   <project name="golang" revision="main" remote="couchbaselabs"/>
 </manifest>
