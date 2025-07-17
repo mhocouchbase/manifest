@@ -19,7 +19,7 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" groups="bsl"/>
   <project name="couchbase-cli" groups="kv" revision="morpheus"/>
   <project name="couchdb" dest-branch="unstable"/>
-  <project name="couchstore" revision="f21ebf66fa8b7a311826cd9bc5e806aa7aef38c3" groups="kv"/>
+  <project name="couchstore" revision="5135da0ad43ad0a13d185657d245ffc548713af7" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
@@ -39,7 +39,7 @@
   <project name="fusion" revision="main" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server" revision="morpheus" groups="bsl"/>
   <project name="vbmap"/>
-  <project name="phosphor" revision="478dfeb2001957e6933d17287e50dfdc8534072d" groups="bsl,kv"/>
+  <project name="phosphor" revision="d3d5087624fc1983100a0b5e88c42c223b732208" groups="bsl,kv"/>
   <project name="platform" groups="bsl,kv"/>
   <project name="product-texts"/>
   <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
