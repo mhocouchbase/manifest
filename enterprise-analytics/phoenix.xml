@@ -14,8 +14,8 @@
   <!-- Add the columnar-ui project -->
   <project name="columnar-ui-v1" groups="notdefault,build,enterprise,analytics" />
 
-  <!-- pick up CLI patch for MB-67581 -->
-  <extend-project name="couchbase-cli" revision="0597caf06922c965a85fc317bc20a3b37ac83634" />
+  <!-- pick up CLI for MB-67581, MB-67581 -->
+  <extend-project name="couchbase-cli" revision="a5a42b7ed43cd3f00b6d60e296ee27369b3bca75" />
 
   <!-- Update build project to provide different annotations -->
   <remove-project name="build"/>
