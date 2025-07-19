@@ -14,7 +14,7 @@
   <!-- Don't use just extend-project as that leaves in other annotations -->
   <!-- from the parent, such as BSL stuff -->
   <remove-project name="build"/>
-  <project name="build" path="cbbuild" groups="notdefault,build" revision="2beb97fb2e69a8f661d27821e77282dd1426d26a">
+  <project name="build" path="cbbuild" groups="notdefault,build" revision="86d8fdd68842f94d1c61db36c10fe0cd1e75e85f">
     <annotation name="VERSION" value="1.1.2"     keep="true"/>
     <annotation name="SERVER_VERSION" value="7.6.6"     keep="true"/>
     <annotation name="SERVER_BLD_NUM" value="6129"     keep="true"/>
