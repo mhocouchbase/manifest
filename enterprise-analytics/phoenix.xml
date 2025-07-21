@@ -17,6 +17,18 @@
   <!-- pick up CLI for MB-67581, MB-67581, MB-67727 -->
   <extend-project name="couchbase-cli" revision="14b6f256747ba3d5d440ca1ec9b685833b2db2f0" />
 
+  <!-- pick up tlm for CBD-6401, CBD-6394 -->
+  <extend-project name="tlm" revision="7bdebed022a9cb71f8aadbe4016218ba010d779b" />
+
+  <!-- pick up latest product-texts so we have the most accurate README.txt & licenses -->
+  <extend-project name="product-texts" revision="master" />
+
+  <!-- pick up latest product-metadata so we have the most accurate NOTICE.txt -->
+  <extend-project name="product-metadata" revision="master" />
+
+  <!-- per ceej, we should pick up the latest golang project -->
+  <extend-project name="golang" revision="main" />
+
   <!-- Update build project to provide different annotations -->
   <remove-project name="build"/>
   <project name="build" path="cbbuild" revision="ba76b34e3a349a3281804c9b97ee0706d8893c36" upstream="master" dest-branch="master" groups="notdefault,build">
