@@ -31,7 +31,7 @@
   <project name="plasma" revision="69279d773fb1cf7fb49a992e1e2ebd465f0e82ab" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="5fa9ab274373d2df910139315e4625aead0b9bb9" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="bad01b76913b1d740a590722e3494ed671102927" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="kv_engine" revision="22ed832a13f0b77e77bde3d4838a9cd3b7a14c5d" groups="kv,bsl"/>
+  <project name="kv_engine" revision="7777c6728f7b27a641ae19659a2a135b8388eb35" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.3.13"/>
   <project name="magma" revision="9b0624d7963af5114db5f4f9a671ffb7a2b6b8c4" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
   <project name="ns_server" revision="neo" groups="bsl"/>
