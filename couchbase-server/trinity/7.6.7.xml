@@ -9,7 +9,7 @@
   <default remote="couchbase" revision="master"/>
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise" revision="0b9d774840dd95d68f1a6bf61dc31a3c8a1b1afd"/>
+  <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise" revision="7.6.7"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise" revision="a43cabc63854764aea7f9e2e0fa883b76919a875"/>
   <project name="cbft" revision="8392ccda17c02840fce52c22a7f40e7d576c4ab2"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="b02867c73866fcdf39ff83bafed75fa04742f7a9"/>
