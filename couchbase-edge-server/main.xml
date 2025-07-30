@@ -9,12 +9,7 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="edge-server" remote="couchbase-priv" path="edge-server" sync-s="true" />
-
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Couchbase-owned Couchbase Lite Core and tools      -->
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core-EE" path="edge-server/vendor/couchbase-lite-core-EE" remote="couchbase-priv" revision="master"/>
-
+  
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
