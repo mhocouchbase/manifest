@@ -11,15 +11,10 @@
   <project name="edge-server" remote="couchbase-priv" path="edge-server" sync-s="true" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Couchbase-owned Couchbase Lite Core and tools      -->
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core-EE" path="edge-server/vendor/couchbase-lite-core-EE" remote="couchbase-priv" revision="master"/>
-
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild" revision="0961883a4a6afcc1fb82e9e876af454f43944298">
-    <annotation name="VERSION" value="1.0.0" keep="true"/>
+    <annotation name="VERSION" value="1.0.1" keep="true"/>
   </project>
 
   <!-- Want these explicitly master, regardless of the default -->
