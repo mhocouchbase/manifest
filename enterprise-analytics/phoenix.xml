@@ -16,9 +16,6 @@
   <!-- pick up CLI for MB-67581, MB-67581, MB-67727 (x2) -->
   <extend-project name="couchbase-cli" revision="99268efbb085a5570f61722b07ba1edce1665488" />
 
-  <!-- pick up tlm for CBD-6401, CBD-6394 -->
-  <extend-project name="tlm" revision="7bdebed022a9cb71f8aadbe4016218ba010d779b" />
-
   <!-- pick up latest product-texts so we have the most accurate README.txt & licenses -->
   <extend-project name="product-texts" revision="master" />
 

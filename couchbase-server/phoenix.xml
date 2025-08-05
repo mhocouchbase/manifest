@@ -18,6 +18,9 @@
   <extend-project name="cbas" revision="master" dest-branch="master" />
   <extend-project name="cbas-ui" revision="master" dest-branch="master" />
 
+  <!-- Pick up latest tlm -->
+  <extend-project name="tlm" revision="master"/>
+
   <!-- Update build project to provide different annotations -->
   <remove-project name="build"/>
   <project name="build" path="cbbuild" revision="ba76b34e3a349a3281804c9b97ee0706d8893c36" upstream="master" dest-branch="master" groups="notdefault,build">
