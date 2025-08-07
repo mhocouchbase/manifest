@@ -3,6 +3,7 @@
         "enterprise-analytics/phoenix/2.0.0.xml": {
             "release": "phoenix",
             "release_name": "Phoenix (2.0.0)",
+            "parent": "enterprise-analytics/phoenix.xml",
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": true,
