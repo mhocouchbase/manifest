@@ -9,7 +9,7 @@
   
   <project name="HdrHistogram_c" path="third_party/HdrHistogram_c" remote="couchbasedeps" revision="9ead6b88adbf8d6131e5ae7a3a699c477a3b4195" groups="kv" />
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="8d14fda07c4da87369c155b91fbe58abce1559ba" upstream="morpheus" dest-branch="master" groups="notdefault,enterprise,analytics" />
-  <project name="asterixdb" path="analytics/asterixdb" revision="0795ad31de10f9018f0c330541e74923ba34f3ef" upstream="morpheus" dest-branch="phoenix" groups="notdefault,enterprise,analytics" />
+  <project name="asterixdb" path="analytics/asterixdb" revision="ea-2.0.0" upstream="morpheus" dest-branch="phoenix" groups="notdefault,enterprise,analytics" />
   <project name="backup" remote="couchbase-priv" revision="d8d47548e87e73a12bbb13388fb29d482e131b34" upstream="morpheus" dest-branch="morpheus" groups="backup,notdefault,enterprise" />
   <project name="build" path="cbbuild" revision="ba76b34e3a349a3281804c9b97ee0706d8893c36" upstream="master" dest-branch="master" groups="notdefault,build">
     <annotation name="RELEASE" value="phoenix" />
