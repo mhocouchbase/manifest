@@ -35,10 +35,10 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mbedtls" remote="couchbasedeps" revision="ac92b40422f61cc50dbb3330210070315a90f189" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/mbedtls"/>
+  <project name="mbedtls" remote="couchbasedeps" revision="8b50bf2b47901a9d5721c425d3db649f6d49ebe4" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/mbedtls"/>
   <project name="linenoise-mob" remote="couchbasedeps" revision="8631d28ef0271ff29e041dbe459602c04fe8bc2c" path="couchbase-mobile-tools/vendor/linenoise-mob"/>
   <project name="ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/ios-cmake"/>
-  <project name="sockpp" remote="couchbasedeps" revision="b45988c5e0564eabd65608fc19560e18a145fb82" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/sockpp"/>
+  <project name="sockpp" remote="couchbasedeps" revision="3ae874833cffef84b45420f0eeecc419dae6c461" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/sockpp"/>
   <project name="zlib" remote="couchbasedeps" revision="51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/zlib"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="33dca7270fe819a38e2b41fc3cd4f7f36ffd3fe5" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
