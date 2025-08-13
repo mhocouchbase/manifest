@@ -1,6 +1,18 @@
 {
     "manifests": {
         "couchbase-lite-android/master.xml": {
+            "release_name": "Couchbase Lite Android - v4.0.0",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "do-build": true,
+            "module_projects": [ "couchbase-lite-java-ee-root", "product-texts" ],
+            "jenkins_job": "couchbase-lite-android"
+        },
+        "couchbase-lite-android/3.3.xml": {
             "release_name": "Couchbase Lite Android - v3.3.0",
             "production": true,
             "interval": 90,
