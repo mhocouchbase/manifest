@@ -16,10 +16,7 @@
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
-             "trigger_blackduck": true,
-             "module_projects": [
-                 "couchbase-lite-core"
-             ]
+             "trigger_blackduck": true
          },
          "couchbase-lite-core/3.2.xml": {
              "release_name": "Couchbase Lite Core - release/3.2",
