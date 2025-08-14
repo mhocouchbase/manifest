@@ -13,29 +13,17 @@
   <!-- Add the columnar-ui project -->
   <project name="columnar-ui-v1" groups="notdefault,build,enterprise,analytics" />
 
-  <!-- pick up CLI for MB-67581, MB-67581, MB-67727 (x2) -->
-  <extend-project name="couchbase-cli" revision="99268efbb085a5570f61722b07ba1edce1665488" />
-
-  <!-- pick up latest product-texts so we have the most accurate README.txt & licenses -->
-  <extend-project name="product-texts" revision="master" />
-
-  <!-- pick up latest product-metadata so we have the most accurate NOTICE.txt -->
-  <extend-project name="product-metadata" revision="master" />
-
-  <!-- per ceej, we should pick up the latest golang project -->
-  <extend-project name="golang" revision="main" />
-
   <!-- Update build project to provide different annotations -->
   <remove-project name="build"/>
   <project name="build" path="cbbuild" revision="ba76b34e3a349a3281804c9b97ee0706d8893c36" upstream="master" dest-branch="master" groups="notdefault,build">
     <annotation name="VERSION" value="2.0.1"     keep="true"/>
-    <annotation name="SERVER_VERSION" value="7.9.0"     keep="true"/>
+    <annotation name="SERVER_VERSION" value="7.9.1"     keep="true"/>
     <annotation name="SERVER_BLD_NUM" value="8.0.0-3439"     keep="true"/>
     <annotation name="SERVER_RELEASE" value="phoenix"     keep="true"/>
     <annotation name="COLUMNAR" value="true"     keep="true"/>
     <annotation name="COLUMNAR_COMPAT_VERSION" value="2.0.1"/>
     <annotation name="MIN_SUPPORTED_COLUMNAR_COMPAT_VERSION" value="2.0.0"/>
-    <annotation name="MIN_SUPPORTED_COLUMNAR_PROVISIONED_COMPAT_VERSION" value="1.0.5"/>
+    <annotation name="MIN_SUPPORTED_COLUMNAR_PROVISIONED_COMPAT_VERSION" value="1.1.1"/>
   </project>
 
   <remove-project name="query"/>
