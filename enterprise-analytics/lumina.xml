@@ -24,10 +24,10 @@
 
   <!-- Update build project to provide different annotations -->
   <remove-project name="build"/>
-  <project name="build" path="cbbuild" revision="0a8a26ac9573952065f2ab70070fe70b87c22f2a" upstream="master" dest-branch="master" groups="notdefault,build">
+  <project name="build" path="cbbuild" revision="370d8bcec3b51ed409abbda23d5c9644f0725931" upstream="master" dest-branch="master" groups="notdefault,build">
     <annotation name="VERSION" value="2.1.0"     keep="true"/>
     <annotation name="SERVER_VERSION" value="8.0.0"     keep="true"/>
-    <annotation name="SERVER_BLD_NUM" value="8.0.0-3630"     keep="true"/>
+    <annotation name="SERVER_BLD_NUM" value="8.0.0-3635"     keep="true"/>
     <annotation name="SERVER_RELEASE" value="morpheus"     keep="true"/>
     <annotation name="COLUMNAR" value="true"     keep="true"/>
     <annotation name="COLUMNAR_COMPAT_VERSION" value="2.1.0"/>
@@ -51,7 +51,6 @@
   <remove-project name="n1fty"/>
   <remove-project name="bhive"/>
   <remove-project name="plasma"/>
-  <remove-project name="fusion"/>
   <remove-project name="gocbcrypto"/>
   <!-- we can't remove the following at least while we have a test dependency on samples
   <remove- project name="magma"/>
