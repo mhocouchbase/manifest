@@ -19,7 +19,7 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" groups="bsl"/>
   <project name="couchbase-cli" groups="kv" revision="morpheus"/>
   <project name="couchdb" dest-branch="unstable"/>
-  <project name="couchstore" revision="5135da0ad43ad0a13d185657d245ffc548713af7" groups="kv"/>
+  <project name="couchstore" revision="morpheus" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
@@ -38,15 +38,15 @@
   <project name="magma" revision="morpheus" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server" revision="morpheus" groups="bsl"/>
   <project name="vbmap"/>
-  <project name="phosphor" revision="d3d5087624fc1983100a0b5e88c42c223b732208" groups="bsl,kv"/>
+  <project name="phosphor" revision="morpheus" groups="bsl,kv"/>
   <project name="platform" groups="bsl,kv"/>
   <project name="product-texts"/>
   <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query" groups="bsl"/>
   <project name="query-ui" groups="bsl"/>
   <project name="regulator" revision="main" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="sigar" groups="kv"/>
-  <project name="subjson" revision="ae77e5120fa08e93ba0f541670c46a4a3d1825cc" groups="bsl,kv"/>
+  <project name="sigar" revision="morpheus" groups="kv"/>
+  <project name="subjson" revision="morpheus" groups="bsl,kv"/>
   <project name="testrunner"/>
   <project name="tlm" groups="bsl,kv">
     <copyfile src="Build.sh" dest="Build.sh" />
