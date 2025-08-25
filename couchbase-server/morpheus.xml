@@ -33,13 +33,13 @@
   <project name="plasma"      path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="eventing"    path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
-  <project name="kv_engine" groups="kv,bsl"/>
+  <project name="kv_engine" revision="morpheus" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.3.16"/>
   <project name="magma" revision="morpheus" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server" revision="morpheus" groups="bsl"/>
   <project name="vbmap"/>
   <project name="phosphor" revision="morpheus" groups="bsl,kv"/>
-  <project name="platform" groups="bsl,kv"/>
+  <project name="platform" revision="morpheus" groups="bsl,kv"/>
   <project name="product-texts"/>
   <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query" groups="bsl"/>
