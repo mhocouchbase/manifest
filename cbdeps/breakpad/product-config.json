@@ -1,8 +1,7 @@
 {
     "manifests": {
         "cbdeps/breakpad/master.xml": {
-            "release": "20200430",
-            "release_name": "breakpad 20200430",
+            "release": "2022.07.12",
             "production": true,
             "restricted": false,
             "start_build": 1,
