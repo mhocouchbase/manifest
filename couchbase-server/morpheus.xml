@@ -90,7 +90,7 @@
     <annotation name="BSL_CHANGE_DATE" value="March 1, 2029" keep="true"/>
     <annotation name="BSL_MAIN_OK" value="true" keep="true"/>
   </project>
-  <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
+  <project name="voltron" revision="8168c7517889ec02c31212f52b002cae2fd9518e" remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
   <project name="product-metadata" groups="notdefault,packaging" />
   <project name="golang" revision="main" remote="couchbaselabs" groups="kv"/>
