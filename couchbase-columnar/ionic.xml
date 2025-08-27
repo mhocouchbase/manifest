@@ -10,6 +10,8 @@
   <extend-project name="cbas" revision="ionic" />
   <extend-project name="cbas-ui" revision="011d6a502cfb84af4a64bb1ca198e28daa375de9" />
 
+  <extend-project name="regulator" revision="main" />
+
   <!-- Replace build repo to provide different annotations -->
   <!-- Don't use just extend-project as that leaves in other annotations -->
   <!-- from the parent, such as BSL stuff -->
