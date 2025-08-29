@@ -32,7 +32,7 @@
         "couchbase-server/morpheus/8.0.0.xml": {
             "release": "morpheus",
             "release_name": "Morpheus (8.0.0)",
-            "parent": "morpheus.xml",
+            "parent": "couchbase-server/morpheus.xml",
             "production": true,
             "start_build": 3683,
             "trigger_blackduck": true,
