@@ -12,6 +12,15 @@
 
   <extend-project name="regulator" revision="main" />
 
+  <!-- pick up latest product-texts so we have the most accurate README.txt & licenses -->
+  <extend-project name="product-texts" revision="master" />
+
+  <!-- pick up latest product-metadata so we have the most accurate NOTICE.txt -->
+  <extend-project name="product-metadata" revision="master" />
+
+  <!-- per ceej, we should pick up the latest golang project -->
+  <extend-project name="golang" revision="main" />
+
   <!-- Replace build repo to provide different annotations -->
   <!-- Don't use just extend-project as that leaves in other annotations -->
   <!-- from the parent, such as BSL stuff -->
