@@ -22,6 +22,9 @@
             "do-build": false,
             "keep_git": true,
             "jenkins_job": "cbdeps-build",
+            "jenkins_job_parameters": {
+                "SERVER_RELEASE": "trinity"
+            },
             "platforms": [ "linux",
                         "linux:aarch64",
                         "macos",
