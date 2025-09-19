@@ -18,8 +18,8 @@
   <extend-project name="cbas" revision="master" dest-branch="master" />
   <extend-project name="cbas-ui" revision="master" dest-branch="master" />
 
-  <!-- Pick up latest tlm -->
-  <extend-project name="tlm" revision="master"/>
+  <!-- Pick up latest morpheus tlm -->
+  <extend-project name="tlm" revision="morpheus"/>
 
   <!-- pick up CLI for MB-67581, MB-67581, MB-67727 (x2) -->
   <extend-project name="couchbase-cli" revision="99268efbb085a5570f61722b07ba1edce1665488" />
