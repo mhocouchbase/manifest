@@ -86,7 +86,7 @@
   <project name="build"      path="cbbuild"           groups="notdefault,build">
     <annotation name="VERSION" value="8.0.0"     keep="true"/>
   </project>
-  <project name="voltron" revision="voltron" remote="couchbase-priv"  groups="notdefault,packaging" />
+  <project name="voltron" revision="morpheus" remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
   <project name="product-metadata" groups="notdefault,packaging" />
   <project name="golang" revision="main" remote="couchbaselabs" groups="kv"/>
