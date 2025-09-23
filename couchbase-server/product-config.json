@@ -14,7 +14,7 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": true,
-            "interval": 1441,
+            "interval": 751,
             "keep_git": true
         },
         "couchbase-server/morpheus.xml": {
@@ -61,7 +61,7 @@
             "production": true,
             "start_build": 7000,
             "trigger_blackduck": true,
-            "interval": 244,
+            "interval": 123,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-65438"
@@ -134,7 +134,7 @@
             "start_build": 3800,
             "trigger_blackduck": true,
             "interval": 1441,
-            "do-build": true,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-64568"
@@ -183,7 +183,7 @@
             "production": true,
             "start_build": 9100,
             "trigger_blackduck": true,
-            "interval": 121,
+            "interval": 253,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-67454"
@@ -195,7 +195,7 @@
             "production": true,
             "start_build": 8800,
             "trigger_blackduck": true,
-            "interval": 121,
+            "interval": 1453,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-65241"
@@ -219,7 +219,7 @@
             "production": true,
             "start_build": 8000,
             "trigger_blackduck": true,
-            "interval": 380,
+            "interval": 10010,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-65029"
@@ -231,7 +231,7 @@
             "production": true,
             "start_build": 6900,
             "trigger_blackduck": true,
-            "interval": 1441,
+            "interval": 10087,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-62559"
@@ -243,7 +243,7 @@
             "production": true,
             "start_build": 6900,
             "trigger_blackduck": true,
-            "interval": 413,
+            "interval": 10120,
             "do-build": false,
             "keep_git": true,
             "restricted": true,
@@ -256,8 +256,8 @@
             "production": true,
             "start_build": 6700,
             "trigger_blackduck": true,
-            "interval": 1508,
-            "do-build": true,
+            "interval": 10024,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-65516"
@@ -269,8 +269,8 @@
             "production": true,
             "start_build": 6400,
             "trigger_blackduck": true,
-            "interval": 90,
-            "do-build": true,
+            "interval": 10020,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-64806"
