@@ -8,6 +8,16 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true
+        },
+        "couchbase-lite-net-vector-search/1.0.xml": {
+            "release_name": "Couchbase Lite Net Vector Search - 1.x",
+            "production": true,
+            "interval": 720,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do_build": false,
+            "trigger_blackduck": true
         }
     }
 }
