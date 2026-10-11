@@ -22,4 +22,7 @@
          so set this to true only for release-candidate builds. -->
     <annotation name="SIGN" value="false" keep="true"/>
   </project>
+
+  <!-- Black Duck notices, shipped as the driver jar's META-INF/NOTICE -->
+  <project name="product-metadata" revision="master"/>
 </manifest>
