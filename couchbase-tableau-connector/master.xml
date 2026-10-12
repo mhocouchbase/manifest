@@ -23,25 +23,6 @@
   <!-- Tableau Connector SDK (tdvt-2.13.7) -->
   <project name="connector-plugin-sdk" remote="tableau" revision="f5c30e024564c2057ddf0a8b724848fe46913afc" path="connector-plugin-sdk" groups="notdefault"/>
 
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Build support - build scripts, etc.                -->
-  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="build" path="cbbuild" revision="c1b485bbf14aa1176be5ea26b7982f4002188429" remote="couchbase">
-    <annotation name="VERSION" value="0.0.0" keep="true"/>
-    <!-- SDK flavor(s) of the connector to build. One of:
-           analytics    -> new Analytics SDK   (couchbase-operational-insights taco)
-           operational  -> legacy core SDK     (couchbase-analytics taco)
-           both         -> build both tacos
-         to default the BUILD_ANALYTICS_SDK / BUILD_OPERATIONAL_SDK options. -->
-    <annotation name="SDK" value="both" keep="true"/>
-    <!-- DigiCert code-signing; every signature is billed, so leave these
-         false except for release candidates.
-           SIGN_TACO             sign the .taco
-           SIGN_EMBEDDED_DRIVER  sign the JDBC driver jar in the dist zip -->
-    <annotation name="SIGN_TACO" value="false" keep="true"/>
-    <annotation name="SIGN_EMBEDDED_DRIVER" value="false" keep="true"/>
-  </project>
-
   <project name="product-texts"/>
   <project name="product-metadata"/>
 

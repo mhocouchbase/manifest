@@ -7,7 +7,7 @@
             "restricted": false,
             "start_build": 100,
             "trigger_blackduck": true,
-            "do-build": true,
+            "do-build": false,
             "keep_git": true
         },
         "couchbase-tableau-connector/2.x/2.0.0.xml": {
@@ -28,7 +28,7 @@
             "restricted": false,
             "start_build": 100,
             "trigger_blackduck": true,
-            "do-build": true,
+            "do-build": false,
             "keep_git": true
         },
         "couchbase-tableau-connector/1.x/1.2.0.xml": {

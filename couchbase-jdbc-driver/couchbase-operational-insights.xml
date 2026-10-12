@@ -18,9 +18,8 @@
     <!-- Driver flavor this manifest builds: the couchbase-operational-insights-jdbc-driver
          module, via the flavor-couchbase-operational-insights Maven profile. -->
     <annotation name="FLAVOR" value="couchbase-operational-insights" keep="true"/>
-    <!-- DigiCert code-signing of the driver jar. Each signature is billed,
-         so set this to true only for release-candidate builds. -->
-    <annotation name="SIGN" value="false" keep="true"/>
+    <!-- DigiCert code-signing of the driver jar; each signature is billed. -->
+    <annotation name="SIGN" value="true" keep="true"/>
   </project>
 
   <!-- Black Duck notices, shipped as the driver jar's META-INF/NOTICE -->
