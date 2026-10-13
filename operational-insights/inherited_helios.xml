@@ -19,8 +19,9 @@
   <include name="operational-insights/base-manifest_helios.xml"/>
 
   <!-- MB-72186, CBD-6820: Helios runs its own ns_server branch; Server's
-       ns_server commits are not ours to merge forward. -->
-  <extend-project name="ns_server" revision="operational-insights-3.0" dest-branch="operational-insights-3.0"/>
+       ns_server commits are not ours to merge forward.  Pinned on that branch,
+       so changes landing there reach Helios only with a pin bump. -->
+  <extend-project name="ns_server" revision="97cd79d87922b3056b0c0cfe53015896324b18a0" dest-branch="operational-insights-3.0"/>
 
   <extend-project name="couchbase-cli" revision="385c95442597acb473a86d4f0ec1067d3667e974"/>
 

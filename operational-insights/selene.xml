@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Selene, the release after Helios.  This mirrors helios.xml, layering on the same
-       inherited_helios.xml, and differs only in where asterixdb comes from: Helios builds it
-       from its helios branch, Selene from master.  Keep the two in step until Selene needs a
-       layer of its own. -->
-  <include name="operational-insights/inherited_helios.xml"/>
+  <!-- Selene, the release after Helios.  It has its own inherited and base manifests,
+       forked from Helios's, so that pins taken for Helios do not reach it. -->
+  <include name="operational-insights/inherited_selene.xml"/>
 
   <!-- Pick up Analytics projects from master branches -->
   <extend-project name="cbas-core" revision="master" dest-branch="master">
