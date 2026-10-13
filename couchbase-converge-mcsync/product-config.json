@@ -1,13 +1,13 @@
 {
     "manifests": {
-        "rosetta-mdb/main.xml": {
-            "release_name": "Rosetta MDB - main branch",
+        "couchbase-converge-mcsync/main.xml": {
+            "release_name": "Couchbase Converge Mcsync - main branch",
             "production": true,
             "interval": 240,
             "restricted": false,
             "start_build": 100,
             "trigger_blackduck": false,
-            "jenkins_job": "rosetta-mdb-build",
+            "jenkins_job": "couchbase-converge-mcsync-build",
             "keep_git": true
         }
     }

@@ -1,13 +1,13 @@
 {
     "manifests": {
-        "rosetta-mcsync/main.xml": {
-            "release_name": "Rosetta Mcsync - main branch",
+        "couchbase-converge-mongodb/main.xml": {
+            "release_name": "Couchbase Converge Mongodb - main branch",
             "production": true,
             "interval": 240,
             "restricted": false,
             "start_build": 100,
             "trigger_blackduck": false,
-            "jenkins_job": "rosetta-mcsync-build",
+            "jenkins_job": "couchbase-converge-mongodb-build",
             "keep_git": true
         }
     }
