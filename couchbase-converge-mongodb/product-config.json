@@ -1,7 +1,7 @@
 {
     "manifests": {
-        "couchbase-converge-mongodb/main.xml": {
-            "release_name": "Couchbase Converge Mongodb - main branch",
+        "couchbase-converge-mongodb/master.xml": {
+            "release_name": "Couchbase Converge Mongodb - master branch",
             "production": true,
             "interval": 240,
             "restricted": false,
