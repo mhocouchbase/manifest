@@ -1,0 +1,15 @@
+{
+    "manifests": {
+        "couchbase-converge-redis/master.xml": {
+            "release_name": "Couchbase Converge Redis - master branch",
+            "production": true,
+            "interval": 240,
+            "restricted": false,
+            "start_build": 100,
+            "trigger_blackduck": false,
+            "jenkins_job": "couchbase-k8s-microservice-build",
+            "platforms": ["linux/amd64", "linux/arm64"],
+            "keep_git": true
+        }
+    }
+}
