@@ -9,7 +9,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="prometheus" path="goproj/src/github.com/prometheus/prometheus" remote="couchbasedeps" revision="refs/tags/v2.53.5"/>
+  <project name="prometheus" path="goproj/src/github.com/prometheus/prometheus" remote="couchbasedeps" revision="couchbase-v2.53.5"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
@@ -22,5 +22,5 @@
     <annotation name="NODEJS_VERSION" value="22.19.0" keep="true"/>
     <annotation name="YARN_VERSION" value="1.22.22" keep="true"/>
   </project>
-  <project name="golang" revision="main" remote="couchbaselabs"/>
+  <project name="golang" revision="supported-newer-1.26" remote="couchbaselabs"/>
 </manifest>
