@@ -42,7 +42,7 @@
   <project name="platform" revision="3697547969974fda4d126d41dbca1a5fa7cd9a21" groups="bsl,kv"/>
   <project name="product-texts"/>
   <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="302d782f3f627123510495fc50f4bc8b603de6dd"/>
-  <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="349e312cceb070be07a08b9650cad8a6b969992f"/>
+  <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="5fc599dc1c28b1dcdf93b0187444b05fc6d563e9"/>
   <project name="query-ui" groups="bsl" revision="07f1fcd204781f179f9b9ecafd23ffd75a908c62"/>
   <project name="regulator" revision="c5d3d8d2bcc1610c511889199b5e63f21c0fbe2f" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="sigar" groups="kv" revision="8e33950e677d96baea6ab7cced693ff367ec1353"/>
